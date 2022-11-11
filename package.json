@@ -1,0 +1,22 @@
+{
+  "name": "vite.config",
+  "version": "0.0.1",
+  "description": "vite config",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "dev:jsdoc": "vite --config jsdoc.config.js",
+    "dev:define": "vite --config define.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "dayjs": "^1.11.6",
+    "vite": "^3.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "typescript": "^4.8.4"
+  }
+}
